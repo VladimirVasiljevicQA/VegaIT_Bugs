@@ -1,0 +1,62 @@
+19:54:19.786 [main] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@6cbd0674
+19:54:19.788 [main] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@55d58825
+19:54:19.789 [main] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@19a64eae
+19:54:19.791 [main] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@29a98d9f
+19:54:19.792 [main] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@2da3b078
+19:54:19.793 [main] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@544e8149
+19:54:19.808 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 8
+19:54:19.808 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 8
+19:54:19.808 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+19:54:19.808 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 9
+19:54:19.808 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 4194304
+19:54:19.808 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+19:54:19.808 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+19:54:19.808 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+19:54:19.809 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+19:54:19.809 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+19:54:19.809 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: false
+19:54:19.809 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+19:54:19.817 [main] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: pooled
+19:54:19.817 [main] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 0
+19:54:19.817 [main] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+19:54:20.142 [Forwarding newSession on session null to remote] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.processId: 8588 (auto-detected)
+19:54:20.144 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv4Stack: false
+19:54:20.144 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv6Addresses: false
+19:54:20.149 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtilInitializations - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+19:54:20.149 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtil - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+19:54:20.151 [Forwarding newSession on session null to remote] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.machineId: 40:b0:76:ff:fe:61:01:12 (auto-detected)
+19:54:20.181 [AsyncHttpClient-1-2] DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkAccessible: true
+19:54:20.181 [AsyncHttpClient-1-2] DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkBounds: true
+19:54:20.182 [AsyncHttpClient-1-2] DEBUG io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@6e3eaf2b
+19:54:20.199 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.maxCapacityPerThread: 4096
+19:54:20.200 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.ratio: 8
+19:54:20.200 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.chunkSize: 32
+19:54:20.200 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.blocking: false
+19:54:20.200 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.batchFastThreadLocalOnly: true
+19:54:21.246 [AsyncHttpClient-1-2] DEBUG io.netty.handler.codec.compression.Brotli - brotli4j not in the classpath; Brotli support will be unavailable.
+19:54:21.320 [main] DEBUG io.netty.util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0x5de936aa3608583e
+19:54:21.486 [main] DEBUG TestNGTests.SearchOption - Browser got launched
+19:54:22.595 [main] DEBUG TestNGTests.SearchOption - Go to url
+19:54:22.766 [main] DEBUG TestNGTests.SearchOption - Accept alert
+19:54:23.064 [main] DEBUG TestNGTests.SearchOption - Click on submit button
+19:54:23.169 [main] ERROR TestNGTests.SearchOption - Test fail, same warning text
+19:54:23.682 [AsyncHttpClient-1-4] TRACE io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26
+19:54:23.925 [main] DEBUG TestNGTests.SearchOption - Browser is closed
+19:54:24.799 [main] DEBUG TestNGTests.SearchOption - Browser got launched
+19:54:25.925 [main] DEBUG TestNGTests.SearchOption - Go to url
+19:54:26.067 [main] DEBUG TestNGTests.SearchOption - Accept alert
+19:54:26.290 [main] DEBUG TestNGTests.SearchOption - Click on menu button
+19:54:26.494 [main] DEBUG TestNGTests.SearchOption - Provide data
+19:54:28.799 [main] DEBUG TestNGTests.SearchOption - Click on search icon
+19:54:28.814 [main] DEBUG TestNGTests.SearchOption - Test pass, driver find element
+19:54:28.830 [AsyncHttpClient-1-7] TRACE io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26
+19:54:29.026 [main] DEBUG TestNGTests.SearchOption - Browser is closed
+19:54:29.896 [main] DEBUG TestNGTests.SearchOption - Browser got launched
+19:54:30.864 [main] DEBUG TestNGTests.SearchOption - Go to url
+19:54:31.020 [main] DEBUG TestNGTests.SearchOption - Accept alert
+19:54:31.269 [main] DEBUG TestNGTests.SearchOption - Click on menu button
+19:54:31.414 [main] DEBUG TestNGTests.SearchOption - Provide data
+19:54:33.528 [main] DEBUG TestNGTests.SearchOption - Click on search icon
+19:54:43.590 [main] ERROR TestNGTests.SearchOption - Test fail, no such element
+19:54:53.799 [AsyncHttpClient-1-2] TRACE io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26
+19:54:53.978 [main] DEBUG TestNGTests.SearchOption - Browser is closed
